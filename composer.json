@@ -1,0 +1,35 @@
+{
+    "name": "omnipay/erip",
+    "type": "library",
+    "description": "Erip driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "manual",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/artsaan/omnipay-erip",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aliaksandr Zubik",
+            "email": "a.zubik@artsan.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Manual\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
