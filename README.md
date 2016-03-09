@@ -17,7 +17,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "omnipay/manual": "~2.0"
+        "omnipay/erip": "~1.0"
     }
 }
 ```
@@ -31,7 +31,7 @@ And run composer to update your dependencies:
 
 The following gateways are provided by this package:
 
-* Manual
+* ERIP
 
 For general usage instructions, please see the main [Omnipay](https://github.com/thephpleague/omnipay)
 repository.
